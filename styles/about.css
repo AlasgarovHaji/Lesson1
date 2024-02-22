@@ -32,5 +32,46 @@ header {
  header div:last-child span a {
     color: #9195F6;
     font-size: 30px;
-    padding: 50px;
+    margin-left: 50px;
  }
+
+ main {
+    background-color: #FEECE2;
+    padding: 10px;
+    margin: 20px 0px;
+ }
+ main>div:first-child p {
+    color: #A3C9AA;
+ }
+ main>div:nth-child(2) p {
+    background-color: brown;
+    border-radius: 4px;
+    padding: 5px;
+    color: skyblue;
+ }
+
+ footer {
+    background-color: #3B3486;
+    padding: 45px;
+    margin-top: 35px;
+    border: 2px solid #864AF9;;
+ }
+
+ footer div {
+    background-color: #BF3131;
+    padding: 15px;
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    
+ }
+
+ footer span:nth-child(3) {
+    color: #FF9800;
+    font-size: 35px;
+}
+
+footer span {
+    padding: 10px;
+    font-size: 180x;
+}
